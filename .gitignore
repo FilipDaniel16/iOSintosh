@@ -1,0 +1,77 @@
+Build output
+
+build/
+dist/
+out/
+bin/
+obj/
+
+Compiled binaries and debug symbols
+
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+
+Experimental boot images and disk images
+
+*.img
+*.iso
+*.bin
+
+Firmware archives and extracted firmware
+
+.ipsw
+firmware/
+!firmware/README.md
+
+Logs and temporary files
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+Local configuration and secrets
+
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+Editor and IDE settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Operating-system metadata
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+Python cache and virtual environments
+
+pycache/
+*.py[cod]
+.venv/
+venv/
+
+Rust build output
+
+target/
+
+CMake build output
+
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
